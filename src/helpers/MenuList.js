@@ -4,6 +4,7 @@ import Margharita from "../assets/margharita-pizza-with-full-tomato-sauce-andgre
 import Mushroom from "../assets/Pizza_Champignons.jpg";
 import Seafood from "../assets/fruit-de-mer.jpg";
 import Special from "../assets/special-pizza.jpg";
+import Meter from "../assets/pizza-meter.jpg"
 
 export const MenuList = [
     {
@@ -35,5 +36,10 @@ export const MenuList = [
         name: "Jasmin Pizza",
         Image: Special,
         price: 29.5,
+    },
+    {
+        name: "Pizza Meter",
+        Image: Meter,
+        price: 35,
     },
 ];
