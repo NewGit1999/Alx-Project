@@ -1,0 +1,77 @@
+
+.auth-wrapper {
+    width: 20cm;
+    height: 20cm;
+    display: flex;
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center; 
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 0 auto; 
+  }
+  
+  
+  .auth-inner {
+    height: 90%;
+    flex: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 20px; 
+  }
+  
+  .auth-inner h3 {
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+    font-weight: 10;
+    font-size: 32px;
+    margin-bottom: 20px;
+  }
+  
+  .auth-inner input,
+  .auth-inner textarea {
+    height: 40px;
+    width: 90%;
+    border: none;
+    border-bottom: 1px solid #121619;
+    color: black;
+    margin-bottom: 20px;
+    padding: 5px;
+  }
+  
+  .auth-inner textarea {
+    height: 70px;
+  }
+  
+  .auth-inner input::placeholder,
+  .auth-inner textarea::placeholder {
+    font-weight: bold;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .auth-inner input:focus,
+  .auth-inner textarea:focus {
+    outline: none;
+  }
+  
+  .auth-inner label {
+    color: grey;
+    margin-bottom: 5px;
+  }
+  
+  .auth-inner button {
+    width: 140px;
+    height: 40px;
+    border: none;
+    background-color: #121619;
+    color: whitesmoke;
+    font-size: 15px;
+    cursor: pointer;
+    margin-top: 20px;
+  }
+  
+  
+  
